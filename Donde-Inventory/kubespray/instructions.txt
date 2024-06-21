@@ -1,0 +1,6 @@
+Clone Kubespray git repo:
+    git clone https://github.com/kubernetes-sigs/kubespray.git
+
+
+Run Kubespray with this inventory file:
+    ansible-playbook cluster.yml  -i kubespray/donde-kubernetes-hosts.ini --become --become-user=root
