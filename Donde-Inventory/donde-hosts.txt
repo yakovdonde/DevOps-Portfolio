@@ -1,10 +1,10 @@
-172.16.10.101 kube-master-01
-172.16.10.102 kube-master-02
-172.16.10.103 kube-master-03
-172.16.10.104 kube-worker-01
-172.16.10.105 kube-worker-02
-172.16.10.106 kube-worker-03
+172.16.10.101 k8s-master-01
+172.16.10.102 k8s-master-02
+172.16.10.103 k8s-master-03
+172.16.10.104 k8s-worker-01
+172.16.10.105 k8s-worker-02
+172.16.10.106 k8s-worker-03
 
-172.16.10.110 microk8s-grafana-01
+#172.16.10.110 microk8s-grafana-01
 
 172.16.10.120 ansible-01

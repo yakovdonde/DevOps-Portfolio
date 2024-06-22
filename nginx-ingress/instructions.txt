@@ -1,0 +1,3 @@
+Install nginx-ingress with helm:
+    helm install nginx-ingress oci://ghcr.io/nginxinc/charts/nginx-ingress -n nginx-ingress --create-namespace --set controller.hostNetwork=true,controller.service.type="",controller.kind=daemonset
+        helm install nginx-ingress oci://ghcr.io/nginxinc/charts/nginx-ingress -n nginx-ingress --create-namespace --set controller.hostNetwork=true
