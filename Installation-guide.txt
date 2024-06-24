@@ -18,3 +18,12 @@ In order to use Kubespray to install Kubernetes Cluster you need:
 
      - Configure your Ansible host with all needed libraries:
         You can use Scripts/ansible-host-config.sh script for that
+
+     - Create your Ansible inventory:
+        - Copy the example inventory folder:
+                command:  cp -fpr ~/DevOps-Portfolio/kubespray/inventory/sample/  ~/DevOps-Portfolio/kubespray/inventory/<mycluster>
+        - Adjust the ~/DevOps-Portfolio/kubespray/inventory/<mycluster>/inventory.ini with your inventory (you can use inventory/inventory.ini file as an example)
+
+     - Run ansible plyabook to create Kubernetes cluster using your inventory.
+        cd ~/DevOps-Portfolio/kubespray/
+        ansible-playbook cluster.yml -i inventory/myluster/inventory.ini -become --become-user=root
