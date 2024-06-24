@@ -11,7 +11,7 @@ In order to use Kubespray to install Kubernetes Cluster you need:
         you can use Scripts/ssh_copy_id.sh script
 
     - Optional:
-        Make all your Servers have passwordless sudo
+        - Make all your Servers have passwordless sudo
             You can use Scripts/passwordless-sudo.sh script for that
-        Set Timezone and Locale on all your servers
+        - Set Timezone and Locale on all your servers
             You can use Scripts/timezone-locale.sh script for that

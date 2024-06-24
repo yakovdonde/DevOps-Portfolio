@@ -1,6 +1,6 @@
 # How to run this script?
 # ./timezone-locale -t "America/New_York" -l "en_US.UTF-8" host1 host2 host3
-# for Asia/Baku and en_GB.UTF-8 run ./timezone-locale -t "Asia/Baku" -l "en_GB.UTF-8" host1 host2 host3
+# for Asia/Baku and en_GB.UTF-8 run ./timezone-locale.sh -t "Asia/Baku" -l "en_GB.UTF-8" host1 host2 host3
 
 #!/bin/bash
 

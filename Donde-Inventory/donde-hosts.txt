@@ -8,3 +8,6 @@
 #172.16.10.110 microk8s-grafana-01
 
 172.16.10.120 ansible-01
+
+
+k8s-master-01 k8s-master-02 k8s-master-03 k8s-worker-01 k8s-worker-02 k8s-worker-03
