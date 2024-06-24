@@ -15,3 +15,6 @@ In order to use Kubespray to install Kubernetes Cluster you need:
             You can use Scripts/passwordless-sudo.sh script for that
         - Set Timezone and Locale on all your servers
             You can use Scripts/timezone-locale.sh script for that
+
+     - Configure your Ansible host with all needed libraries:
+        You can use Scripts/ansible-host-config.sh script for that
